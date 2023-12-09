@@ -10,9 +10,6 @@ SoloPose is a novel one-shot, many-to-many spatio-temporal transformer model for
 
 we need to install the [huggingface](https://huggingface.co/docs/transformers/installation#:~:text=%F0%9F%A4%97%20Transformers%20is%20tested%20on,PyTorch%20installation%20instructions.) to apply the pre-train model. Besides, our network is implemented by Pytorch.
 
-Right now this project is pravite. You need to setup a token for users to access.
-
-The place to get a token: github settings/Developer settings/Personal access tokens/
 
 ```
 conda create -n pose python=3.8
