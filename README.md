@@ -1,5 +1,13 @@
 # SoloPose
-SoloPose is a novel one-shot, many-to-many spatio-temporal transformer model for kinematic 3D human pose estimation of video.
+SoloPose is a novel one-shot, many-to-many spatio-temporal transformer model for kinematic 3D human pose estimation of video.  SoloPose is further fortified by HeatPose, a 3D heatmap based on Gaussian Mixture Model distributions that factors target key points as well as kinematically adjacent key points.
+<div align="center">
+    <img src="assest/human3.6M_cooridnates_errors.png", width="900">
+</div>
+
+<div align="center">
+    <img src="assest/heatMap.png", width="900">
+</div>
+
 
 # News!
 - Dec 2023: [SoloPose](https://github.com/Santa-Clara-Media-Lab/SoloPose) is released!
@@ -24,3 +32,13 @@ pip install scipy
 git clone https://github.com/Santa-Clara-Media-Lab/SoloPose.git
 cd Xpose
 ```
+## visuial
+
+- FFmpeg (if you want to export MP4 videos)
+- ImageMagick (if you want to export GIFs)
+
+# Pre-trained model
+Our pre-trained models will be released after our paper has been accepted.
+
+# Data Prepare
+Please ensure you have done everything before you move to the following steps.
