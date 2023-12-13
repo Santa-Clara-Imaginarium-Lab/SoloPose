@@ -21,6 +21,6 @@ pip install matplotlib
 pip install moviepy
 pip install chardet
 pip install scipy
-git clone https://github.com/stm233/3D_Pose_Estimation.git Xpose
+git clone https://github.com/Santa-Clara-Media-Lab/SoloPose.git
 cd Xpose
 ```
