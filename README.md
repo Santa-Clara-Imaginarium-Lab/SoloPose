@@ -83,3 +83,14 @@ python xxxx_merge.py
 ```
 11.  Check your output whether is right
 12.  After you run all the codes for all the datasets you want to use, you need to split them into Training datasets, Validation datasets, and Testing data. We will release these datasets after our paper has been accepted.
+<div align="center">
+    <img src="assest/data.png", width="500">
+</div>
+
+# Usage
+```
+python ./network/train.py
+```
+
+## Citation
+If you find this repo useful, please consider citing our paper:
